@@ -6,6 +6,19 @@ def output(a):
     sys.stdout.write(str(a))
 
 N = 9
+print "Please Input Sudoku Puzzle as follow format: "
+print "9 2 0 1 7 0 5 0 3"
+print "0 5 0 0 0 0 0 2 7"
+print "0 0 0 6 5 0 0 9 0"
+print "2 1 0 4 0 7 0 3 0"
+print "7 3 4 8 0 0 0 0 1"
+print "0 0 5 0 3 1 0 0 0"
+print "0 0 8 7 0 4 0 1 9"
+print "3 0 2 0 0 0 7 8 0"
+print "1 9 0 0 8 6 0 5 0"
+print ""
+print "Sudoku Puzzle"
+print "-------------"
 
 field = []
 for _ in range(9):
@@ -22,7 +35,9 @@ for _ in range(9):
 #         [0,0,0,0,0,0,0,0,0]]
 
 def print_field(field):
-    print "\n\n\n"
+    print ""
+    print "The Final Result of Sudoku Puzzle"
+    print "---------------------------------"
     if not field:
         output("No solution")
         return
