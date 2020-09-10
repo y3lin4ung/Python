@@ -1,2 +1,2 @@
 # Python
-Useful Python Script by YLA
+Useful Python Scripts by Ye Lin Aung
